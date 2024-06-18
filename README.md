@@ -1,7 +1,7 @@
  Инструкция запуска проекта
 
-1) Запустите PostgreSQL.
-2) Создайте необходимые таблицы:
+Запустите PostgreSQL.
+2)Создайте необходимые таблицы:
 CREATE TABLE book (
     id BIGINT PRIMARY KEY,
     isbn VARCHAR(255) NOT NULL,
